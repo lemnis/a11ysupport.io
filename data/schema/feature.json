@@ -83,7 +83,7 @@
           "description": "an object of browser ids as keys and rationale as values. The presence of a key indicates that the browser is not applicable for the given reason. An example might be that IE does not support an html5 form control."
         }
       },
-      "required": ["id", "css_target"]
+      "required": ["id", "title", "strength", "operation_modes", "css_target", "pass_strategy"]
     }
   },
   "properties": {
@@ -131,7 +131,7 @@
     "tests": {
       "type": "array",
       "items": {
-        "$ref": "./test.json"
+        "$ref": "test.json"
       }
     },
     "date_updated": {
@@ -140,6 +140,6 @@
     }
   },
   "required": [
-    "title", "description", "date_updated"
+    "id", "title", "description", "tests", "date_updated"
   ]
 }

@@ -14,8 +14,7 @@
     {
       "feature_id": "html/scope_attribute",
       "feature_assertion_id": "convey_value_auto",
-      "applied_to": "html/th_element",
-      "css_target": "#target"
+      "applied_to": "html/th_element"
     },
     {
       "feature_id": "html/th_element",

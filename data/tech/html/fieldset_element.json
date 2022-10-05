@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "fieldset_element",
   "title": "fieldset element",
   "type": "element",

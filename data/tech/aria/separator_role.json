@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "separator_role",
   "title": "separator role",
   "type": "role",

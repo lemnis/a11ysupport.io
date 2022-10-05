@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "section_element",
   "title": "section element",
   "type": "element",

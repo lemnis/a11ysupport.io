@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "input[type=radio]_element",
   "title": "input[type=\"radio\"] element",
   "type": "element",

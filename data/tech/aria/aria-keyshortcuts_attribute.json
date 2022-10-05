@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "aria-keyshortcuts_attribute",
   "title": "aria-keyshortcuts attribute",
   "type": "attribute",

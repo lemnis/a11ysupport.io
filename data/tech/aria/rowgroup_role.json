@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "rowgroup_role",
   "title": "rowgroup role",
   "type": "role",

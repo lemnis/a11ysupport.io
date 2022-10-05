@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "aria-colcount_attribute",
   "title": "aria-colcount attribute",
   "type": "attribute",

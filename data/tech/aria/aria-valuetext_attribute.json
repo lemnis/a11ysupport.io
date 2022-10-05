@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "aria-valuetext_attribute",
   "title": "aria-valuetext attribute",
   "type": "attribute",

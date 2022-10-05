@@ -120,12 +120,28 @@
                   },
                   "focus_location": {
                     "type": "string",
-                    "enum": ["before target", "after target", "target", "within target", "start of target", "end of target", "na"],
+                    "enum": [
+                      "before target",
+                      "after target",
+                      "target",
+                      "within target",
+                      "start of target",
+                      "end of target",
+                      "na"
+                    ],
                     "description": "Describes the location of keyboard focus before the command was executed."
                   },
                   "virtual_location": {
                     "type": "string",
-                    "enum": ["before target", "after target", "target", "within target", "start of target", "end of target", "na"],
+                    "enum": [
+                      "before target",
+                      "after target",
+                      "target",
+                      "within target",
+                      "start of target",
+                      "end of target",
+                      "na"
+                    ],
                     "description": "Describes the location of the virtual cursor before the command was executed."
                   }
                 },
@@ -133,7 +149,16 @@
               },
               "after": {
                 "type": "string",
-                "enum": ["target", "start of target", "end of target", "past target", "before target", "within target", "after target", "na"],
+                "enum": [
+                  "target",
+                  "start of target",
+                  "end of target",
+                  "past target",
+                  "before target",
+                  "within target",
+                  "after target",
+                  "na"
+                ],
                 "description": "Describes the focus/cursor destination after the command."
               },
               "output": {
@@ -141,23 +166,14 @@
               },
               "result": {
                 "type": "string",
-                "enum": [
-                  "pass",
-                  "fail",
-                  "partial",
-                  "unknown",
-                  "na"
-                ]
+                "enum": ["pass", "fail", "partial", "unknown", "na"]
               },
               "behind_setting": {
                 "type": "string",
                 "description": "If support is hidden behind a non-default setting, describe that setting here."
               }
             },
-            "required": [
-              "command",
-              "result"
-            ]
+            "required": ["command", "result"]
           }
         },
         "notes": {
@@ -233,7 +249,12 @@
           }
         }
       },
-      "required": ["feature_id", "feature_assertion_id"]
+      "required": [
+        "feature_id",
+        "feature_assertion_id",
+        "css_target",
+        "results"
+      ]
     },
     "history": {
       "type": "object",
@@ -328,9 +349,15 @@
     }
   },
   "required": [
+    "id",
     "title",
     "description",
+    "html_file",
     "history",
+    "core_support",
+    "extended_support",
+    "core_support_string",
+    "extended_support_string",
     "versions",
     "assertions"
   ]

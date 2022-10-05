@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schema/test.json",
+  "$schema": "../../../schema/dev-test.json",
   "title": "aria-owns multiple reference",
   "description": "Tests aria-owns with multiples reference to other elements.",
   "html_file": "aria/aria-owns-multiple.html",

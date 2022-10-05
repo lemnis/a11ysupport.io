@@ -1,8 +1,4 @@
 export default {
-  "data/tech/**/*.json": (filenames) => {
-    return filenames.map(file => `ajv validate -s data/schema/feature.json  -r data/schema/test.json --strict=false -d ${file}`);
-  },
-  "data/tests/**/*.json": (filenames) => {
-    return filenames.map(file => `ajv validate -s data/schema/test.json --strict=false -d ${file}`);
-  },
+  "data/tech/**/*.json": `node data/validate.mjs --type feature --files`,
+  "data/tests/**/*.json": `node data/validate.mjs --type test --files`,
 };

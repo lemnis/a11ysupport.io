@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "title": "gridcell role",
   "type": "role",
   "description": "A cell in a grid or treegrid.",

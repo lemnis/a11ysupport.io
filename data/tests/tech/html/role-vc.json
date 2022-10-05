@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schema/test.json",
+  "$schema": "../../../schema/dev-test.json",
   "title": "HTML role attribute tests for Voice Control",
   "description": "This tests if Voice Control software uses roles to determine if an element is actionable.",
   "html_file": "html/role-vc.html",
@@ -35,7 +35,7 @@
         },
         {
           "command": "activate_role",
-          "css_target": "#test-2",
+          "css_target": "#target-2",
           "before": {
             "mode": "auto",
             "virtual_location": "na",
@@ -123,7 +123,7 @@
         },
         {
           "command": "show_numbers",
-          "css_target": "#test-2",
+          "css_target": "#target-2",
           "before": {
             "mode": "auto",
             "virtual_location": "na",

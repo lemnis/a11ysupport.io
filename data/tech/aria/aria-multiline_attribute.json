@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "aria-multiline_attribute",
   "title": "aria-multiline attribute",
   "type": "attribute",

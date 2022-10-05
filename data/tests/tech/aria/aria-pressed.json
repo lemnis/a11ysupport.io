@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schema/test.json",
+  "$schema": "../../../schema/dev-test.json",
   "title": "aria-pressed attribute test",
   "description": "Tests the aria-pressed attribute.",
   "html_file": "aria/aria-pressed_examples.html",
@@ -150,7 +150,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -169,7 +169,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -323,7 +323,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -342,7 +342,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -496,7 +496,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -515,7 +515,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -670,7 +670,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -689,7 +689,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -847,7 +847,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -866,7 +866,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1025,7 +1025,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1044,7 +1044,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1201,7 +1201,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1220,7 +1220,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1377,7 +1377,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1396,7 +1396,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1497,7 +1497,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1617,7 +1617,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1774,7 +1774,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1793,7 +1793,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1970,7 +1970,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -1989,7 +1989,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[aria-pressed=\"undefined\"]",
+          "css_target": "*[aria-pressed=\"\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",

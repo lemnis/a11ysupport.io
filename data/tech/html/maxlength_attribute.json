@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "maxlength_attribute",
   "title": "maxlength attribute",
   "type": "attribute",

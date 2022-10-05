@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "input[type=datetime-local]_element",
   "title": "input[type=\"datetime-local\"] element",
   "type": "element",

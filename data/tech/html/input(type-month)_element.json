@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "input[type=month]_element",
   "title": "input[type=\"month\"] element",
   "type": "element",

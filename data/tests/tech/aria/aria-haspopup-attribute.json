@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schema/test.json",
+  "$schema": "../../../schema/dev-test.json",
   "title": "aria-haspopup attribute",
   "description": "Tests the aria-haspopup attribute.",
   "html_file": "aria/aria-haspopup_examples.html",

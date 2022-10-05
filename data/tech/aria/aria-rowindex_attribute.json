@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "aria-rowindex_attribute",
   "title": "aria-rowindex attribute",
   "type": "attribute",

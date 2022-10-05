@@ -15,8 +15,7 @@
   },
   "devDependencies": {
     "ajv": "^6.12.3",
-    "ajv-cli": "^5.0.0",
-    "ajv-keywords": "^5.1.0",
+    "ajv-keywords": "^3.5.2",
     "axios": ">=0.21.2",
     "chai": "^4.2.0",
     "cheerio": "^1.0.0-rc.3",
@@ -29,6 +28,7 @@
     "http-errors": "~1.6.2",
     "husky": "^8.0.1",
     "js-beautify": "^1.13.5",
+    "jsdom": "^20.0.1",
     "jstransformer-markdown-it": "^2.1.0",
     "lint-staged": "^12.4.1",
     "markdown-it-anchor": "^5.2.4",

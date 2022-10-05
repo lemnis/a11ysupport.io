@@ -1,5 +1,5 @@
 {
-  "$id": "http://accessibilitysupported.com/dev-feature.json",
+  "$id": "https://a11ysupport.io/schema/dev-feature.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "definitions": {

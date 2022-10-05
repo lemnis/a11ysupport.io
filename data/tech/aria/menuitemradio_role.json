@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "menuitemradio_role",
   "title": "menuitemradio role",
   "type": "role",

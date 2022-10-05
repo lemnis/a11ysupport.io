@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "banner_role",
   "title": "banner role",
   "type": "role",
@@ -17,7 +17,7 @@
         "sr": "MUST",
         "vc": "NA"
       },
-      "css_target": "role=\"banner\"",
+      "css_target": "[role=\"banner\"]",
       "operation_modes": [
         "sr/reading",
         "sr/interaction"
@@ -29,7 +29,7 @@
         "sr": "MUST",
         "vc": "NA"
       },
-      "css_target": "role=\"banner\"",
+      "css_target": "[role=\"banner\"]",
       "operation_modes": [
         "sr/reading",
         "sr/interaction"
@@ -37,11 +37,11 @@
     },
     {
       "id": "convey_boundaries",
-      "css_target": "role=\"banner\""
+      "css_target": "[role=\"banner\"]"
     },
     {
       "id": "provide_shortcuts",
-      "css_target": "role=\"banner\""
+      "css_target": "[role=\"banner\"]"
     }
   ],
   "date_updated": "2021-12-21"

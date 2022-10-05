@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schema/test.json",
+  "$schema": "../../../schema/dev-test.json",
   "title": "headers attribute test",
   "description": "this tests the headers attribute on a td element",
   "html_file": "html/headers-attribute.html",

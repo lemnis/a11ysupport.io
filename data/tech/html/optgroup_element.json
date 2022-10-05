@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "title": "optgroup element",
   "type": "element",
   "description": "The optgroup element represents a group of option elements with a common label.",

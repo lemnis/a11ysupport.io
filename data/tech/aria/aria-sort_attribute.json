@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "aria-sort_attribute",
   "title": "aria-sort attribute",
   "type": "attribute",

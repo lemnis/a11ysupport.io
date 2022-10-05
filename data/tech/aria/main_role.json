@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "main_role",
   "title": "main role",
   "type": "role",
@@ -17,7 +17,7 @@
         "sr": "MUST",
         "vc": "NA"
       },
-      "css_target": "role=\"main\"",
+      "css_target": "[role=\"main\"]",
       "operation_modes": [
         "sr/reading",
         "sr/interaction"
@@ -29,7 +29,7 @@
         "sr": "MUST",
         "vc": "NA"
       },
-      "css_target": "role=\"main\"",
+      "css_target": "[role=\"main\"]",
       "operation_modes": [
         "sr/reading",
         "sr/interaction"
@@ -37,11 +37,11 @@
     },
     {
       "id": "convey_boundaries",
-      "css_target": "role=\"main\""
+      "css_target": "[role=\"main\"]"
     },
     {
       "id": "provide_shortcuts",
-      "css_target": "role=\"main\""
+      "css_target": "[role=\"main\"]"
     }
   ],
   "date_updated": "2022-01-23"

@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schema/test.json",
+  "$schema": "../../../schema/dev-test.json",
   "title": "ARIA readonly grid",
   "description": "This test ensures that grid semantics are conveyed.",
   "html_file": "aria/grid.html",

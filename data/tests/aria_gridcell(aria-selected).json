@@ -1,5 +1,5 @@
 {
-  "$schema": "../schema/test.json",
+  "$schema": "../schema/dev-test.json",
   "title": "ARIA gridcell role with aria-selected",
   "description": "This test ensures that grid cells are announced as selectable.",
   "assertions": [

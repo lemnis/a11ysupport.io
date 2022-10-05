@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "input[type=checkbox]_element",
   "title": "input[type=\"checkbox\"] element",
   "type": "element",

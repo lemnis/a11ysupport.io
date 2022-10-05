@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schema/test.json",
+  "$schema": "../../../schema/dev-test.json",
   "title": "Basic HTML button test",
   "description": "A basic html button test.",
   "html_file": "html/buttons.html",

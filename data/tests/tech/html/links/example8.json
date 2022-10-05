@@ -6,7 +6,7 @@
     {
       "feature_id": "html/a_element",
       "feature_assertion_id": "convey_role",
-      "css_target": "#example-8 a[href]",
+      "css_target": "#example-8 a",
       "browserNotes": {
         "narrator": {
           "edge": "The text role was conveyed along with the readonly state. No semantics should be conveyed."
@@ -16,12 +16,12 @@
     {
       "feature_id": "html/a_element",
       "feature_assertion_id": "convey_name",
-      "css_target": "#example-8 a[href]"
+      "css_target": "#example-8 a"
     },
     {
       "feature_id": "html/a_element",
       "feature_assertion_id": "provide_shortcuts",
-      "css_target": "#example-8 a[href]",
+      "css_target": "#example-8 a",
       "browserNotes": {
         "jaws": {
           "chrome": "partial support because HTML5 does not call these anchors.",

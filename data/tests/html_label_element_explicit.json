@@ -1,5 +1,5 @@
 {
-  "$schema": "../schema/test.json",
+  "$schema": "../schema/dev-test.json",
   "title": "Explicit label",
   "description": "This style of labeling depends on IDs.",
   "assertions": [

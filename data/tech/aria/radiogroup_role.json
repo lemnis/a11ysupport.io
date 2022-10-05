@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "radiogroup_role",
   "title": "radiogroup role",
   "type": "role",

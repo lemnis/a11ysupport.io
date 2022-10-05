@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "aria-activedescendant_attribute",
   "title": "aria-activedescendant attribute",
   "type": "attribute",

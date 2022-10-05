@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "aria-errormessage_attribute",
   "title": "aria-errormessage attribute",
   "type": "attribute",

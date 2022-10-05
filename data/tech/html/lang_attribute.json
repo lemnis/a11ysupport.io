@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "title": "lang attribute",
   "type": "attribute",
   "description": "The HTML `lang` attributes lets authors change the language for content on a page.",

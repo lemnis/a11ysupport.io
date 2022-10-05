@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schema/test.json",
+  "$schema": "../../../schema/dev-test.json",
   "title": "aria-details test",
   "description": "A sample of aria-details functionality",
   "html_file": "aria/aria-details.html",

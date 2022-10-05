@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schema/feature.json",
+  "$schema": "../../schema/dev-feature.json",
   "id": "aria-describedby_attribute",
   "title": "aria-describedby attribute",
   "type": "attribute",

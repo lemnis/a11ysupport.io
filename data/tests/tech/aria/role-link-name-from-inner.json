@@ -1,5 +1,5 @@
 {
-  "$schema": "../../../schema/test.json",
+  "$schema": "../../../schema/dev-test.json",
   "title": "ARIA link name from inner text",
   "description": "This test ensures that the accessible name is computed correctly for inner text.",
   "html_file": "aria/aria_link_examples.html",
@@ -7,12 +7,12 @@
     {
       "feature_id": "aria/link_role",
       "feature_assertion_id": "convey_name",
-      "css_target": "#target_0"
+      "css_target": "#target-0"
     },
     {
       "feature_id": "aria/link_role",
       "feature_assertion_id": "convey_role",
-      "css_target": "#target_0"
+      "css_target": "#target-0"
     }
   ],
   "commands": {
@@ -38,7 +38,7 @@
         },
         {
           "command": "activate_role",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "na",
@@ -76,7 +76,7 @@
         },
         {
           "command": "activate_role",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "na",
@@ -230,7 +230,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -248,7 +248,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -304,7 +304,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -322,7 +322,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -380,7 +380,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -398,7 +398,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -552,7 +552,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -570,7 +570,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -610,7 +610,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -651,7 +651,7 @@
         },
         {
           "command": "activate_name",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "na",
@@ -692,7 +692,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -750,7 +750,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -768,7 +768,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -826,7 +826,7 @@
         },
         {
           "command": "next_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -844,7 +844,7 @@
         },
         {
           "command": "next_focusable_item",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "before target",
@@ -908,7 +908,7 @@
         },
         {
           "command": "show_numbers",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "na",
@@ -950,7 +950,7 @@
         },
         {
           "command": "show_numbers",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "na",
@@ -990,7 +990,7 @@
         },
         {
           "command": "show_numbers",
-          "css_target": "*[role=\"button\"]",
+          "css_target": "*[role=\"link\"]",
           "before": {
             "mode": "auto",
             "virtual_location": "na",
